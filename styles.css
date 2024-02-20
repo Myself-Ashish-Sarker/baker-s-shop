@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+/* header section */
+/* nav section */
+header .nav-section {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-section .nav-image img {
+    width: 12rem;
+}
+
+header .nav-section .nav-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    gap: 1.5rem;
+}
+
+header .nav-section .nav-items ul li span {
+    color: #E42E6F;
+}
+
+header .nav-section .nav-items ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+header .nav-section .btn-sign {
+    width: 7rem;
+    height: 3rem;
+    background: white;
+    border: 2px solid rgb(255, 117, 169);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s ease-in;
+}
+
+header .nav-section .btn-sign:hover {
+    background: #E42E6F;
+}
+/* nav section */
+
+/* header main image */
+header .h-main-image {
+    margin-top: 1rem;
+    position: relative;
+    background-image: url('./assets/header-cake.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 631px; 
+}
+
+header .h-main-image h1 {
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 11rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    color: rgb(154, 2, 7);
+}
+
+header .h-main-image p {
+    position: absolute;
+    margin-top: 16.5rem;
+    margin-left: 11rem;
+    font-size: 2rem;
+    font-family: "Hanuman", serif;
+    font-weight: bolder;
+    letter-spacing: 0.7rem;
+}
+/* header main image */
+
+/* header final boxes */
+header .box-container {
+    display: flex;
+    justify-content: center;
+}
+
+header .box-container .h-f-main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56.4rem;
+    height: 30.5rem;
+    background: #fff;
+    transform: translateY(-5%);
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55.125rem;
+    height: 29.125rem;
+    background: #E42E6F;
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box h1 {
+    margin-top: 1rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box p {
+    margin-top: 1rem;
+    width: 70%;
+    text-align: center;
+    font-family: "Hanuman", serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image {
+    position: relative;
+    margin-top: 2rem;
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image .h-a-n-page {
+    position: absolute;
+    top: 11%;
+    left: 46%;
+}
+
+/* header final boxes */
+/* header section */
