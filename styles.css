@@ -114,7 +114,7 @@ header .box-container .h-f-main-box .h-f-auxiliary-box {
 }
 
 header .box-container .h-f-main-box .h-f-auxiliary-box h1 {
-    margin-top: 1rem;
+    margin-top: 4rem;
     font-family: "Great Vibes", cursive;
     font-size: 3rem;
     font-weight: 400;
@@ -122,17 +122,23 @@ header .box-container .h-f-main-box .h-f-auxiliary-box h1 {
 }
 
 header .box-container .h-f-main-box .h-f-auxiliary-box p {
+    position: relative;
     margin-top: 1rem;
     width: 70%;
     text-align: center;
     font-family: "Hanuman", serif;
     font-weight: 700;
     color: #fff;
+    z-index: 10;
 }
 
 header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image {
     position: relative;
-    margin-top: 2rem;
+}
+
+header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image .blue-cream {
+    position: relative;
+    margin-top: -1rem;
 }
 
 header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image .h-a-n-page {
@@ -140,6 +146,19 @@ header .box-container .h-f-main-box .h-f-auxiliary-box .h-f-sub-image .h-a-n-pag
     top: 11%;
     left: 46%;
 }
-
 /* header final boxes */
 /* header section */
+
+
+/* main section */
+/* first section */
+main h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-family: "Hanuman", serif;
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: #424141;
+}
+/* first section */
+/* main section */
